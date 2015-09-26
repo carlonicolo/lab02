@@ -56,6 +56,10 @@ public class HealthProfileReader {
 				System.out.println("The system did not find the method '"+method+"'");
 			}
 		}
+		
+		System.out.print("This is the record 1: ");
+		displayHealthProfile((long)1);
+		
 	}
 
 	/* Solution to Exercise #01-2b */
